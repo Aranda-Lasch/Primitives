@@ -1,2 +1,2 @@
 # Primitives
-Desc
+Primitives by Aranda\Lasch
