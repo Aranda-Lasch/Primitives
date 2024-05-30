@@ -1,7 +1,7 @@
 
 
 # Primitives
-Enlace is a generative art project launched through [Arct Blocks CUrated]([https://app.brightmoments.io/collections/enlace](https://www.artblocks.io/legacy/collections/curated/projects/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/368)) in October, 2022
+Enlace is a generative art project launched through [Art Blocks Curated]([https://app.brightmoments.io/collections/enlace](https://www.artblocks.io/legacy/collections/curated/projects/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/368)) in October, 2022
 
 <!-- ![Enlace #11](https://arandalaschstg.wpengine.com/wp-content/uploads/2024/01/Enlace-10-75000011-1536x1536.png ) -->
 <div align="center">
