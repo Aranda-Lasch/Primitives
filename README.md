@@ -31,11 +31,6 @@ also viewable on our site [here](https://arandalasch.com/tool/primitives/)
 
 ## Usage
 
-/src
-
-contains the working files with a interactive GUI
-
-
 /build
 
 contains the minified version uploaded to Art Blocks
@@ -43,6 +38,10 @@ contains the minified version uploaded to Art Blocks
 The random seed can be set on line 9 in tokenData.js
 
 There is no build step, everything was built manually. 
+
+/src
+
+contains the working files
 
 
 
