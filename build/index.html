@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primitives</title>
+    <style>
+        .nftframe{
+            margin:25px;
+            width:475px;
+            height:475px;
+            overflow:hidden;
+            border:none;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevents scrolling if the iframe content is larger than the viewport */
+        }
+
+        iframe {
+            width: 100vw;   /* 100% of the viewport width */
+            height: 100vh;  /* 100% of the viewport height */
+            border: none;   /* Removes the default border around iframes */
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <iframe title="Generator display" sandbox="allow-scripts allow-downloads" allowvr="yes" allowfullscreen="" allow="camera;xr-spatial-tracking" scrolling="no" style=" overflow: hidden;" 
+    srcdoc="
+    <html>
+        <head>
+            <meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot;/>
+            <script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js&quot;></script>
+            <script src =&quot;./tokenData.js &quot; ></script>
+            <style type=&quot;text/css&quot;>
+                html {
+                    height: 100%;
+                }
+                body {
+                    min-height: 100%;
+                    margin: 0;
+                    padding: 0;
+                }
+                canvas {
+                    padding: 0;
+                    margin: auto;
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <script src =&quot;./Prim_small_26.min.js &quot; ></script>
+        </body>
+    </html>"
+    ></iframe>
+</body>
+</html>
